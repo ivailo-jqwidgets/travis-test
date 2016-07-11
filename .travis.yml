@@ -16,7 +16,7 @@ notifications:
 addons:
   artifacts:
     paths:
-    - $HOME/build/prestwick/webcharts-jqx-projectplan/min/example.min.js
+    - $HOME/build/prestwick/webcharts-jqx-projectplan/min/example.min.js 
     - $HOME/build/prestwick/webcharts-jqx-projectplan/min/example.min.js.map
 deploy:
   - provider: s3
